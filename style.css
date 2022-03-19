@@ -91,10 +91,16 @@ page[no_pad] { padding: 0; }
 [centered] { margin-left: auto; margin-right: auto; }
 [fullwidth] { width: calc(100% + 2cm); margin-left: -1cm; }
 
+p[writer] { font-style: italic; font-size: 10pt; color: #8300dd; text-align: right; margin-left: auto; }
+page[writer] { border: solid 1px #8300dd; }
+
 h1 { text-align: center; }
 h3 { font-family: 'deutsch_gothic', sans-serif; text-align: center; }
 h1, h3 { margin-left: auto; margin-right: auto; }
 p { margin: 0.1cm 0; }
 hr { width: 50%; margin: 1cm auto; border: none; border-top: solid 1px; }
-img { max-width: 100%; }
+img { max-width: 100%; max-height: 100%;  }
 a[external] { background-image: url(img/external-link-ltr-icon.svg); background-position: center right; background-repeat: no-repeat; padding-right: 13px; }
+code { white-space: pre; font-size: 13px; }
+
+page.black { background: #191919; color: #fff; }
