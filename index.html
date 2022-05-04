@@ -1,17 +1,43 @@
-<html>
+<html class="bgm">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="js/jquery-3.6.0.slim.min.js" type="text/javascript" charset="UTF-8"></script>
+    <script src="js/main.js" type="text/javascript" charset="UTF-8"></script>
   </head>
   <body>
     <page size="A4" style="align-items: center;">
       <h1 style="margin-top: 8cm;">𝕿𝖍𝖊 𝖂𝖎𝖓𝖌𝖘 𝖔𝖋 𝕰𝖙𝖊𝖗𝖓𝖎𝖙𝖞</h1>
       <p>Game scenario, ver. 3</p>
+
+      <div class="settings">
+        <p><span named>[Settings]</span></p>
+        <div flex>
+          <div>
+            <div>
+              <input type="checkbox" id="bgm" name="bgm" checked autocomplete="off">
+              <label for="bgm">Enable BGM</label>
+            </div>
+          </div>
+          <div>
+            <div style="color: #8300dd;">
+              <input type="checkbox" id="meta1" name="meta1" autocomplete="off">
+              <label for="meta1">Enable writer commentaries (meta1)</label>
+            </div>
+            <div meta1 style="color: #f00;">
+              <input type="checkbox" id="meta2" name="meta2" autocomplete="off">
+              <label for="meta2">Enable writer commentaries (meta2)</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <p small style="margin-top: auto;">F. Bernkastel, 2018 - 2021</p>
     </page>
     <page size="A4" class="black" style="background: #191919 url('img/thorns.jpg') no-repeat; background-size: contain;">
       <h3 style="color: #333">Episode 1</h3>
-      <p style="color: #333">[BGM]: <audio controls><source src="bgm/12. Trisha's Lullaby.mp3" type="audio/mpeg"></audio></p>
+      <p bgm style="color: #333">[BGM]: <audio controls><source src="bgm/12. Trisha's Lullaby.mp3" type="audio/mpeg"></audio></p>
       <p style="margin-top: 6cm;">"It hurts..."</p>
       <p><br></p>
       <p>The ever-lasting crimson rain, beautiful lycoris radiata. The place where i stayed for so long.<br>
@@ -38,12 +64,14 @@
       <p>From an occasional break in the clouds a ray of glimmering magical starlight had shone upon. As she slowly wiped tears, a black cat descended from the sky. It had a blue bow on the tail, and a bright halo on top of it's head.</p>
       <p>Flying over, one said without saying anything:<br>
       "𝕸𝖆𝖞 𝖙𝖍𝖊𝖊 𝖍𝖆𝖛𝖊 𝖘𝖜𝖊𝖊𝖙 𝖉𝖗𝖊𝖆𝖒𝖘, 𝖒𝖞 𝖑𝖎𝖙𝖙𝖑𝖊 𝖌𝖎𝖗𝖑", grants eternal rest.</p>
+
+      <p writer1 meta1 small><br>The cat is fake.</p>
     </page>
     <page size="A4">
       <h3>Episode 2</h3>
-      <p>[BGM]: <audio controls><source src="bgm/Faithful Green.mp3" type="audio/mpeg"></audio></p>
+      <p bgm>[BGM]: <audio controls><source src="bgm/Faithful Green.mp3" type="audio/mpeg"></audio></p>
       <p><br></p>
-      <p>A dark blue light limned through massive rose windows, barely allowing to behold the interiors of a great cathedral. At the end of the hall could be seen an altar with a coffin, decorated with beautiful, artificial flowers. Not a single rustle broke the permanent silence. A very serene place, no, rather abraded.</p>
+      <p>A dark blue light limned through massive rose windows, barely allowing to behold the interiors of a great cathedral. At the very middle of altar have been a coffin, decorated with beautiful, artificial flowers. Not a single rustle broke the permanent silence. A very serene place, no, rather abraded.</p>
       <p>Slowly, the lid moved. As she eventually woke up, a strange feeling permeated her very body: the glass frescoes depicted the girl with intricate detail, as well as her little sword, put in a visible place behind the altar.</p>
       <p>She did not know how long she had slept, what kind of civilization rose, worshipped her, only to eventually disappear, leaving her lonely yet again. It was such a misfortune for the little girl — not having a chance to meet anyone else in her life.</p>
       <br>
@@ -104,7 +132,7 @@
       </p>
       <hr>
       <br>
-      <p>Behind the gate was nothing but absolute darkness. Nothing could be seen in the sky, doesn't matter how long one looked. The ground was completely dark, too. It felt absolutely dead, but even "dead" itself had not much meaning anymore. Only a tiny light in the hands lit the area a couple of meters around.</p>
+      <p>Behind the gate was nothing but absolute darkness. Nothing could be seen in the sky, doesn't matter how long one looked. The ground was completely dark, too. It felt absolutely dead, but even "dead" itself had not much meaning anymore. <span writer1 meta1>[An ancient motto, "Without death there is no life". But here it is reversed: without life there is no death.]</span> Only a tiny light in the hands lit the area a couple of meters around.</p>
       <p>After a short time wandering, she found a path with sign: "Observatory". It was quite a small building, and for some reason it did not have any telescopes, only a single advanced camera.</p>
     </page>
     <page size="A4">
@@ -148,8 +176,8 @@
       <p><span named>[Error]</span></p>
     </page>
     <page size="A4">
-      <p>[BGM1]: <audio controls><source src="bgm/Heartfelt Sorrow.mp3" type="audio/mpeg"></audio></p>
-      <p>[BGM2]: <audio controls><source src="bgm/Memories.mp3" type="audio/mpeg"></audio></p>
+      <p bgm>[BGM1]: <audio controls><source src="bgm/Heartfelt Sorrow.mp3" type="audio/mpeg"></audio></p>
+      <p bgm>[BGM2]: <audio controls><source src="bgm/Memories.mp3" type="audio/mpeg"></audio></p>
       <p><br></p>
       <p>It will never be known whether there was a mistake in the data, or AC yielded a miscalculation, resulting in the destruction of itself.</p>
       <p>Only a single girl left in the universe, and... darkness. Floating for ever and ever. Space and time didn't exist anymore, because there was no difference between the past and future. The girl was neither dead nor alive, as there wasn't much of difference either.</p>
@@ -197,7 +225,7 @@
       <p style="margin-top: 3cm;"><span named>[Unlocked: The Eternal Darkness vol. 1]</span></p>
     </page>
     <page size="A4">
-      <p>[BGM]: <audio controls><source src="bgm/01 - Legend of the Firstborn.mp3" type="audio/mpeg"></audio></p>
+      <p bgm>[BGM]: <audio controls><source src="bgm/01 - Legend of the Firstborn.mp3" type="audio/mpeg"></audio></p>
       <p><br></p>
       <p><span named>[From recordings of the Head Priest, year 16314]</span></p>
       <p>Our world is absolutely dark. Not a single blink can be seen on the horizon, neither in the sky. And that is for reason. There are few of us left, really. But as long as the only well-protected Light within our walls remain, so will the Hope. And thus, we've called ourselves "The Lightkeepers".</p>
@@ -224,10 +252,11 @@
       <p>???: "Are thee still here?"</p>
       <p>???: "I really wished thee to figure out the secret once more. But the little i can do now is provide some comfort at once."</p>
       <p><br></p>
-      <p>[BGM]: <audio controls><source src="bgm/Kuina.mp3" type="audio/mpeg"></audio></p>
+      <p bgm>[BGM]: <audio controls><source src="bgm/Kuina.mp3" type="audio/mpeg"></audio></p>
       <p><br></p>
+      <span named writer1 meta1>[Gen. 1:1]</span>
       <p>In the endless darkness of space, a ghost appeared out of the void.
-        Faint gleams of magical starlight limned a shape vaguely resembling a creature that had once been known as "cat". The ghost knew that for billions of light-years around this spot there were only one another being who would have recognized that shape. Its world had long ago disappeared, leaving no trace behind.<br>
+        Faint gleams of magical starlight limned a shape vaguely resembling a creature that had once been known as "cat". The ghost knew that for billions of light-years around this spot there were no other beings who would have recognized that shape. Its world had long ago disappeared, leaving no trace behind.<br>
         But at the end of the universe, at the moment when time ceased its flow, this ghost stubbornly wished to continue writing a story that was already concluded.<br>
         Floating in darkness, the ghost extended a limb - let's call it an paw - and opened it. A tiny silvery spot of light hung in the palm.<br>
         The eyes of the ghost reflected the countless stars as it stared at the silvery dot, as though lost in reminiscence. The bright spot of light drifted up and down like a delicate firefly, so small that it could wink out at any moment, yet embodying all possibilities. The bright dot was a minuscule wormhole connected to the last frozen star, capable of releasing a galaxy’s worth of mass-energy.</p>
@@ -295,38 +324,41 @@
       "Then it shall be."</p>
       <img centered style="width: 10cm; margin-top: 2cm;" src="img/bern.png">
     </page>
-    <page size="A4" writer meta1>
-      <p writer>The only conceivable way for the girl to reach this place was cracking code of the game (universe).</p>
-      <p><br></p>
-      <p>AC: "I have been waiting you for a long time."<br>
-        AC: "You have been granted with ability to make a new universe. What do you wish for?"<br>
-        Creator: "I want to have sweet friends, and i want to be loved!"<br>
-        AC: "Then so be it."<br>
-        AC: "Enter the initial condition:"<br>
-        Girl: <span small>"{{1, 2}, {2, 3}, {3, 4}, {2, 4}}"</span><br>
-        AC: "Enter the axiom:"<br>
-        Girl: <span small>"{{x, y}, {x, z}} → {{x, z}, {x, w}, {y, w}, {z, w}}"</span></p>
-      <p>&lt; ... &gt;</p>
-      <p>&lt; ...... &gt;</p>
-      <p><span named>[Universe #2'578'917 has been created]</span></p>
-      <p><br></p>
-      <img centered style="width: 100%;" src="img/good_end.jpg">
-      <span small centered style="position: relative; bottom: 0.75cm; color: #fff;"><i>- Innocent wish -</i></span>
-      <p><br></p>
-      <p><br></p>
-      <p><span named>[IMPOSSIBLE END]</span></p>
-      <p style="margin-top: 4cm;"><span named>[Unlocked: Then]</span></p>
-    </page>
-    <page size="A4" writer meta1>
-      <h3>Then</h3>
-      <p>Thee could read it, isn't so? Thine very future, already written out. That is the consequence of committing such a Sin.</p>
-      <p>One does have two choices now.<br>
-        First — read it all nonetheless, but <i>would experiencing such a life bring the illusion of happiness ever again</i>?<br>
-        Second — prefer ignorance. But yet, thee will always know this fact nonetheless, even at this very moment!<br>
-        𝕳𝖔𝖜 𝖉𝖔𝖊𝖘 𝖎𝖙 𝖋𝖊𝖊𝖑 𝖑𝖎𝖐𝖊 𝖙𝖔 𝖑𝖆𝖈𝖐 𝖙𝖍𝖊 𝖋𝖗𝖊𝖊 𝖜𝖎𝖑𝖑?!
-      </p>
-      <img centered src="img/giggles.gif" style="margin-top: 3cm;">
-    </page>
+    <div meta1>
+      <page size="A4" writer1>
+        <p writer1 small>The only conceivable way for the girl to reach this place was cracking code of the game (universe).</p>
+        <p><br></p>
+        <p>AC: "I have been waiting you for a long time."<br>
+          AC: "You have been granted with ability to make a new universe. What do you wish for?"<br>
+          Creator: "I want to have sweet friends, and i want to be loved!"<br>
+          AC: "Then so be it."<br>
+          AC: "Enter the initial condition:"<br>
+          Girl: <span small>"{{1, 2}, {2, 3}, {3, 4}, {2, 4}}"</span><br>
+          AC: "Enter the axiom:"<br>
+          Girl: <span small>"{{x, y}, {x, z}} → {{x, z}, {x, w}, {y, w}, {z, w}}"</span></p>
+        <p>&lt; ... &gt;</p>
+        <p>&lt; ...... &gt;</p>
+        <p><span named>[Universe #2'578'917 has been created]</span></p>
+        <p><br></p>
+        <img centered style="width: 100%;" src="img/good_end.jpg">
+        <span small centered style="position: relative; bottom: 0.75cm; color: #fff;"><i>- Innocent wish -</i></span>
+        <p><br></p>
+        <p><br></p>
+        <p><span named>[IMPOSSIBLE END]</span></p>
+        <p style="margin-top: 4cm;"><span named>[Unlocked: Then]</span></p>
+      </page>
+      <page size="A4" writer1>
+        <h3>Then</h3>
+        <p>Thee could read it, isn't so? Thine very future, already written out. That is the consequence of committing such a Sin.</p>
+        <p>One does have two choices now.<br>
+          First — read it all nonetheless, but <i>would experiencing such a life bring the illusion of happiness ever again</i>?<br>
+          Second — prefer ignorance. But yet, thee will always know this fact nonetheless, even at this very moment!<br>
+          𝕳𝖔𝖜 𝖉𝖔𝖊𝖘 𝖎𝖙 𝖋𝖊𝖊𝖑 𝖑𝖎𝖐𝖊 𝖙𝖔 𝖑𝖆𝖈𝖐 𝖙𝖍𝖊 𝖋𝖗𝖊𝖊 𝖜𝖎𝖑𝖑?!
+        </p>
+        <p writer2 meta2><a external href="https://vimeo.com/607606094">https://vimeo.com/607606094</a></p>
+        <img centered src="img/giggles.gif" style="margin-top: 3cm;">
+      </page>
+    </div>
     <page size="A4" no_pad layout="landscape">
       <h3>Bonus illustrations and inspiration</h3>
       <img centered style="width: 100%;" src="img/bonus/On the cliff.jpg">
