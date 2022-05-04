@@ -3,15 +3,15 @@ $(function () {
     $('html').toggleClass('bgm')
   });
   $('[type="checkbox"]#meta1').on('change', function () {
-    if ($(this).is(':checked')) {
-      alert('Recommended after multiple playthroughs.')
+    if (window.localStorage.getItem('alert_meta1') !== '1') {
+      if ($(this).is(':checked')) {
+        alert('Recommended after multiple playthroughs.')
+      }
+      window.localStorage.setItem('alert_meta1', '1')
     }
     $('html').toggleClass('meta1')
   });
   $('[type="checkbox"]#meta2').on('change', function () {
-    if ($(this).is(':checked')) {
-      alert('Recommended after reading meta1.')
-    }
     $('html').toggleClass('meta2')
   });
 });
