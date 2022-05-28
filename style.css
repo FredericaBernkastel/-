@@ -31,6 +31,7 @@ body {
   background: rgb(204,204,204);
   font: 400 12pt/1.2 "quicksand", sans-serif;
   color: #333;
+  margin: 0;
 }
 audio {
 	height: 14pt;
@@ -74,7 +75,7 @@ page[size="A5"][layout="landscape"] {
 }
 page[no_pad] { padding: 0; }
 @media print {
-	body { transform: scale(149%); }
+	/*body { transform: scale(149%); }*/
   body, page {
     margin: 0;
     box-shadow: none;

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="690px" height="494px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 690 494"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil2 {fill:#8300DD}
+    .fil1 {fill:#8300DD;fill-rule:nonzero}
+    .fnt0 {font-weight:normal;font-size:7.5pt;font-family:'Tahoma', sans-serif}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="690" height="494.01"/>
+  <g>
+   <path class="fil1" d="M537.67 279.79l109.92 0 0 2 -109.92 0 -0.46 -1.89 0.46 -0.11zm-0.46 0.11l0.22 -0.11 0.24 0 -0.46 0.11zm-51.92 27.17l51.92 -27.17 0.92 1.78 -51.91 27.16 -0.93 -1.77zm3.78 5.35l-11.4 -0.23 6.31 -9.5 5.09 9.73z"/>
+  </g>
+  <text x="540.19" y="262.59"  class="fil2 fnt0">IR light, emitted by gas </text>
+  <text x="540.19" y="274.66"  class="fil2 fnt0">within the accretion disk</text>
+  <g>
+   <path class="fil1" d="M550.47 379.9l109.92 0 0 2.01 -109.92 0 -0.47 -1.89 0.47 -0.12zm-0.47 0.12l0.23 -0.12 0.24 0 -0.47 0.12zm-51.91 27.17l51.91 -27.17 0.93 1.77 -51.91 27.17 -0.93 -1.77zm3.78 5.35l-11.4 -0.24 6.3 -9.5 5.1 9.74z"/>
+  </g>
+  <text x="548.5" y="363.58"  class="fil2 fnt0">Second image of the</text>
+  <text x="548.5" y="375.65"  class="fil2 fnt0">same disk</text>
+  <g>
+   <path class="fil1" d="M426.93 433.05l-78.28 0 0 -2 78.28 0 0.46 1.89 -0.46 0.11zm0.46 -0.11l-0.22 0.11 -0.24 0 0.46 -0.11zm32.06 -16.78l-32.06 16.78 -0.93 -1.78 32.06 -16.77 0.93 1.77zm-3.78 -5.35l11.39 0.23 -6.3 9.5 -5.09 -9.73z"/>
+  </g>
+  <text x="351.09" y="412.95"  class="fil2 fnt0">3rd order, much </text>
+  <text x="351.09" y="425.01"  class="fil2 fnt0">thinner image</text>
+  <g>
+   <path class="fil1" d="M289.35 108l-205.42 0 0 -2 205.42 0 0.46 1.88 -0.46 0.12zm0.46 -0.12l-0.22 0.12 -0.24 0 0.46 -0.12zm51.92 -27.16l-51.92 27.16 -0.92 -1.77 51.91 -27.17 0.93 1.78zm-3.78 -5.35l11.4 0.23 -6.31 9.5 -5.09 -9.73z"/>
+  </g>
+  <g>
+   <path class="fil1" d="M354.64 108l-65.29 0 0 -2 65.29 0 0 2zm-0.82 -6.24l9.52 5.24 -9.52 5.24 0 -10.48z"/>
+  </g>
+  <g>
+   <path class="fil1" d="M401.67 220.73l-113.03 -113.03 1.42 -1.41 113.02 113.03 -1.41 1.41zm3.82 -4.98l3.02 10.41 -10.41 -3.02 7.39 -7.39z"/>
+  </g>
+  <text x="88.7" y="88.06"  class="fil2 fnt0">Infinitely many images, composed of photons</text>
+  <text x="88.7" y="100.13"  class="fil2 fnt0">orbiting around the photon sphere</text>
+ </g>
+</svg>
