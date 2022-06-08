@@ -98,7 +98,6 @@ p[writer1] { text-align: right; margin-left: auto; }
 page[writer1] { border: solid 1px #8300dd; }
 page[writer2] { border: solid 1px #f00; }
 p[writer2] { font-style: italic; color: #f00; text-align: right; margin-left: auto; }
-  p[writer2] a { color: inherit; text-decoration: none; }
 
 h1 { text-align: center; }
 h3 { font-family: 'deutsch_gothic', sans-serif; text-align: center; }
