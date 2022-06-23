@@ -122,3 +122,8 @@ html.bgm [bgm] { display: unset;}
 html.meta1 [meta1] { display: unset; }
 [meta2] { display: none; }
 html.meta2 [meta2] { display: unset; }
+
+[white_pen] { color: white; }
+page.black [white_pen] { color: #191919; }
+[white_pen] ::selection { background-color: transparent; color: #333; }
+page.black [white_pen] ::selection { color: gold; }
