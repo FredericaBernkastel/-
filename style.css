@@ -23,6 +23,15 @@
   font-style: normal;
   font-smooth: never;
 }
+@font-face {
+  font-family: 'kjv1611';
+  src: url('fonts/kjv1611.woff2') format('woff2'),
+  url('fonts/kjv1611.ttf') format('truetype'),
+  url('fonts/kjv1611.svg#kjv1611regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 * {
 	box-sizing: border-box;
@@ -94,13 +103,13 @@ page[no_pad] { padding: 0; }
 [fullheight] { height: calc(100% + 0.75cm); margin-bottom: -0.75cm; }
 
 p[writer1], span[writer1] { font-style: italic; color: #8300dd; }
-p[writer1] { text-align: right; margin-left: auto; }
+p[writer1], p[writer2] { text-align: right; margin-left: auto; }
 page[writer1] { border: solid 1px #8300dd; }
 page[writer2] { border: solid 1px #f00; }
-p[writer2] { font-style: italic; color: #f00; text-align: right; margin-left: auto; }
+p[writer2], span[writer2] { font-style: italic; color: #f00; }
 
 h1 { text-align: center; }
-h3 { font-family: 'deutsch_gothic', sans-serif; text-align: center; }
+h3 { font: normal 20pt/1 'kjv1611', sans-serif; text-align: center; margin-top: 0.75em; }
 h1, h3 { margin-left: auto; margin-right: auto; }
 p { margin: 0.1cm 0; }
 hr { width: 50%; margin: 1cm auto; border: none; border-top: solid 1px; }
