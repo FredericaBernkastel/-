@@ -5,7 +5,7 @@ $(function () {
   $('[type="checkbox"]#meta1').on('change', function () {
     if (window.localStorage.getItem('alert_meta1') !== '1') {
       if ($(this).is(':checked')) {
-        alert('Recommended after multiple playthroughs.')
+        alert('Not recommended on the first playthrough.')
       }
       window.localStorage.setItem('alert_meta1', '1')
     }
