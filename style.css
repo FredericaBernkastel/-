@@ -97,7 +97,7 @@ page[no_pad] { padding: 0; }
 
 [small] { font-size: 10pt; }
 [named] { font-weight: 600; }
-[terminal] { font-family: "fixedsys", monospace; text-align: left; }
+[terminal] { font-family: "fixedsys", monospace; }
 [centered] { margin-left: auto; margin-right: auto; }
 [fullwidth] { width: calc(100% + 2cm); margin-left: -1cm; }
 [fullheight] { height: calc(100% + 0.75cm); margin-bottom: -0.75cm; }
@@ -129,6 +129,7 @@ html.bgm [bgm] { display: unset;}
 
 [meta1] { display: none; }
 html.meta1 [meta1] { display: unset; }
+html.meta1 [meta_lt1] { display: none; }
 [meta2] { display: none; }
 html.meta2 [meta2] { display: unset; }
 html.meta2 [meta_lt2] { display: none; }
