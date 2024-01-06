@@ -14,4 +14,7 @@ $(function () {
   $('[type="checkbox"]#meta2').on('change', function () {
     $('html').toggleClass('meta2')
   });
+  $('[type="checkbox"]#meta3').on('change', function () {
+    $('html').toggleClass('meta3')
+  });
 });

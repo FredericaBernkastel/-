@@ -133,6 +133,9 @@ html.meta1 [meta_lt1] { display: none; }
 [meta2] { display: none; }
 html.meta2 [meta2] { display: unset; }
 html.meta2 [meta_lt2] { display: none; }
+[meta3] { display: none; }
+html.meta3 [meta3] { display: unset; }
+html.meta3 [meta_lt3] { display: none; }
 
 [white_pen] { color: white; }
 page.black [white_pen] { color: #191919; }
