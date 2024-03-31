@@ -23,7 +23,7 @@ $(function () {
     .on('change', function () {
       if (settings.get('alert_meta1') !== '1') {
         if ($(this).is(':checked')) {
-          alert('Not recommended on the first playthrough.')
+          alert('Not recommended on the first playthrough.') // n. Witness of an entire play
         }
         settings.set('alert_meta1', '1')
       }
