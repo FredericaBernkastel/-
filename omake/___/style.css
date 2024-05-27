@@ -23,6 +23,15 @@
   font-style: normal;
   font-smooth: never;
 }
+@font-face {
+  font-family: 'kjv1611';
+  src: url('fonts/kjv1611.woff2') format('woff2'),
+  url('fonts/kjv1611.ttf') format('truetype'),
+  url('fonts/kjv1611.svg#kjv1611regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 * {
 	box-sizing: border-box;
@@ -31,6 +40,7 @@ body {
   background: rgb(204,204,204);
   font: 400 12pt/1.2 "quicksand", sans-serif;
   color: #333;
+  margin: 0;
 }
 audio {
 	height: 14pt;
@@ -74,7 +84,7 @@ page[size="A5"][layout="landscape"] {
 }
 page[no_pad] { padding: 0; }
 @media print {
-	body { transform: scale(149%); }
+	/*body { transform: scale(149%); }*/
   body, page {
     margin: 0;
     box-shadow: none;
@@ -90,13 +100,40 @@ page[no_pad] { padding: 0; }
 [terminal] { font-family: "fixedsys", monospace; text-align: left; }
 [centered] { margin-left: auto; margin-right: auto; }
 [fullwidth] { width: calc(100% + 2cm); margin-left: -1cm; }
+[fullheight] { height: calc(100% + 0.75cm); margin-bottom: -0.75cm; }
+
+p[writer1], span[writer1] { font-style: italic; color: #8300dd; }
+p[writer1], p[writer2] { text-align: right; margin-left: auto; }
+page[writer1] { border: solid 1px #8300dd; }
+page[writer2] { border: solid 1px #f00; }
+p[writer2], span[writer2] { font-style: italic; color: #f00; }
 
 h1 { text-align: center; }
-h3 { font-family: 'deutsch_gothic', sans-serif; text-align: center; }
+h3 { font: normal 20pt/1 'kjv1611', sans-serif; text-align: center; margin-top: 0.75em; }
 h1, h3 { margin-left: auto; margin-right: auto; }
 p { margin: 0.1cm 0; }
 hr { width: 50%; margin: 1cm auto; border: none; border-top: solid 1px; }
-img { max-width: 100%; }
+img, video { max-width: 100%; max-height: 100%;  }
 a[external] { background-image: url(img/external-link-ltr-icon.svg); background-position: center right; background-repeat: no-repeat; padding-right: 13px; }
+code { white-space: pre; font-size: 13px; }
+label { position: relative; top: -2px; }
 
-page.black { background: #000; color: #fff; }
+page.black { background: #191919; color: #fff; }
+
+.settings { margin-top: 10cm; width: 65%; text-align: center; }
+  .settings > [flex] { display: flex; justify-content: space-between; margin-top: 5mm; font: normal 11pt monospace; }
+    .settings > [flex] > * { display: flex; flex-direction: column; align-items: flex-start; }
+
+[bgm] { display: none; }
+html.bgm [bgm] { display: unset;}
+
+[meta1] { display: none; }
+html.meta1 [meta1] { display: unset; }
+[meta2] { display: none; }
+html.meta2 [meta2] { display: unset; }
+html.meta2 [meta_lt2] { display: none; }
+
+[white_pen] { color: white; }
+page.black [white_pen] { color: #191919; }
+[white_pen] ::selection { background-color: transparent; color: #333; }
+page.black [white_pen] ::selection { color: gold; }
